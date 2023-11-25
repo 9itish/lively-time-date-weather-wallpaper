@@ -1,0 +1,103 @@
+html {
+  background: radial-gradient(circle at 100% 0, transparent 70%, black 70.05%);
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 20px auto;
+  width: 80%;
+  text-align: right;
+}
+
+div.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.text-content > * {
+  width: fit-content;
+}
+
+h1 {
+  font-family: "Bakbak One";
+  font-size: 9rem;
+  text-align: right;
+  color: #E91E63;
+  margin-bottom: 0;
+  -webkit-text-stroke: 4px black;
+}
+
+h2 {
+  font-family: "Bakbak One";
+  font-size: 4rem;
+  text-align: right;
+  margin-top: 0;
+  display: inline-block;
+  margin-right: 0;
+  color: black;
+}
+
+canvas {
+  display: block;
+  clip-path: circle(99.2% at 100% 0%);
+}
+
+.particle-class {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+section.weather {
+  font-family: "Akshar";
+  font-size: 2rem;
+  display: inline-block;
+  border-right: 0.2rem solid black;
+  padding-right: 1rem;
+}
+
+section.weather p {
+  line-height: 1.4;
+  margin: 0;
+}
+
+section.joke {
+  margin-top: 3rem;
+  width: 50%;
+}
+
+section.joke p {
+  display: inline-block;
+  text-align: left;
+  font-size: 1.75rem;
+  font-family: "Akshar";
+  font-weight: 500;
+  color: #666;
+  border-left: 0.5rem solid #666;
+  padding-left: 1rem;
+}
+
+button {
+  cursor: pointer;
+  background: white;
+  color: black;
+  border: 3px solid black;
+  padding: 0.5rem 0.75rem 0.4rem 0.75rem;
+  font-size: 1.5rem;
+  font-family: "Akshar";
+  font-weight: 500;
+  line-height: 1;
+  transition: 0.4s all;
+  position: relative;
+  z-index: 999;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}

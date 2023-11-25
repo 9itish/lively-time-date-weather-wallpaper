@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Dynamic Wallpaper (Time, Date, Weather, Jokes)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Bakbak+One&display=swap" rel="stylesheet">
+  <link href="assets/style.css" rel="stylesheet"></link>
+</head>
+
+<body translate="no">
+  <div id="particle-container" class="particle-class"></div>
+  <div class="text-content">
+    <h1 class="time"><span class="hour">00</span>:<span class="minutes">00</span>:<span class="seconds">00</span> <span
+        class="am-pm"></span></h1>
+    <h2 class="day">Today</h2>
+    <br>
+    <section class="weather">
+      <p class="temp">Temperature: &deg;C</p>
+      <p class="hum">Humidity: 0%</p>
+      <p class="wind">Wind Speed: 0 km/hr</p>
+      <p class="vis">Visibility: 0 km</p>
+    </section>
+    <section class="joke"><p>No Joke!</p></section>
+    <button class="new-joke">Get New Joke</button>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+  <script src="assets/script.js"></script>
+</body>
+</html>
